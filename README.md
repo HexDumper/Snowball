@@ -1,1 +1,11 @@
-# The README is within the snowball directory
+# Snowball
+
+## Description
+Snowball is a self copying program. The initial execution of Snowball copies it's
+machine code into all target files. All subsequent execution of all infected files
+copies the entire code within the executed infected file into the new
+target files, and so on.
+
+## Build
+
+Contains a Makefile for easy compilation.
