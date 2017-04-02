@@ -12,4 +12,4 @@ Contains a Makefile for easy compilation.
 
 ### Other details
 
-Contais Bash files for easily opening the directory (Gedit must be installed), easily creating a "Test" directory and easily cleaning the "Test" directory.
+Contains Bash files for easily opening the directory (Gedit must be installed), easily creating a "Test" directory and easily cleaning the "Test" directory.
