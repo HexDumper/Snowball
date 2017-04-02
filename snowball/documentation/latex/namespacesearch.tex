@@ -1,0 +1,40 @@
+\hypertarget{namespacesearch}{\section{search Namespace Reference}
+\label{namespacesearch}\index{search@{search}}
+}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{namespacesearch_a2f52a0545d237d7a566fcaa887bdc784}{getdir} (string dir, vector$<$ string $>$ \&files)
+\item 
+int \hyperlink{namespacesearch_aca625fab72dc71c5ebdabd84169040e1}{getdir} (std\+::string dir, std\+::vector$<$ std\+::string $>$ \&files)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This namespace contains functions that allow the user to search directories. 
+
+\subsection{Function Documentation}
+\hypertarget{namespacesearch_aca625fab72dc71c5ebdabd84169040e1}{\index{search@{search}!getdir@{getdir}}
+\index{getdir@{getdir}!search@{search}}
+\subsubsection[{getdir}]{\setlength{\rightskip}{0pt plus 5cm}int search\+::getdir (
+\begin{DoxyParamCaption}
+\item[{std\+::string}]{dir, }
+\item[{std\+::vector$<$ std\+::string $>$ \&}]{files}
+\end{DoxyParamCaption}
+)}}\label{namespacesearch_aca625fab72dc71c5ebdabd84169040e1}
+\hypertarget{namespacesearch_a2f52a0545d237d7a566fcaa887bdc784}{\index{search@{search}!getdir@{getdir}}
+\index{getdir@{getdir}!search@{search}}
+\subsubsection[{getdir}]{\setlength{\rightskip}{0pt plus 5cm}int search\+::getdir (
+\begin{DoxyParamCaption}
+\item[{string}]{dir, }
+\item[{vector$<$ string $>$ \&}]{files}
+\end{DoxyParamCaption}
+)}}\label{namespacesearch_a2f52a0545d237d7a566fcaa887bdc784}
+\hyperlink{namespacesearch_a2f52a0545d237d7a566fcaa887bdc784}{getdir()} Scans the current working directory, gets the names of the files contained within it, opens and writes into those files. 
+\begin{DoxyParams}{Parameters}
+{\em dir} & \+: a string corresponding to the directory to be searched; files \+: a vector$<$string$>$ corresponding to the array of the names of the files contained within the scanned directory. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Technically returns an integer, but the \char`\"{}files\char`\"{} parameter can be used like just like an ordinary array. 
+\end{DoxyReturn}

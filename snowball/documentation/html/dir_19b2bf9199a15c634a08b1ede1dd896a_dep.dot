@@ -1,0 +1,8 @@
+digraph "/home/superuser/projects/main/search" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  dir_19b2bf9199a15c634a08b1ede1dd896a [shape=box, label="search", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_19b2bf9199a15c634a08b1ede1dd896a.html"];
+  dir_33a3286485c637ec477613e1f9c16c9a [shape=box label="body" fillcolor="white" style="filled" color="red" URL="dir_33a3286485c637ec477613e1f9c16c9a.html"];
+  dir_19b2bf9199a15c634a08b1ede1dd896a->dir_33a3286485c637ec477613e1f9c16c9a [headlabel="1", labeldistance=1.5 headhref="dir_000002_000000.html"];
+}

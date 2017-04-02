@@ -1,0 +1,22 @@
+digraph "projects/main" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_a9ec1ef424966475f993eb98877e3088 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="projects" fontname="Helvetica", fontsize="10", URL="dir_a9ec1ef424966475f993eb98877e3088.html"]
+  subgraph clusterdir_56d0f84b48b9db9f67b627c814b26b94 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_56d0f84b48b9db9f67b627c814b26b94.html"];
+    dir_56d0f84b48b9db9f67b627c814b26b94 [shape=plaintext label="main"];
+    dir_a79966bf88cfe707aaa789b85a1f9fd7 [shape=box label="body" color="red" fillcolor="white" style="filled" URL="dir_a79966bf88cfe707aaa789b85a1f9fd7.html"];
+    dir_916a21b5658e9f82b6c102083cf14ff4 [shape=box label="fmanip" color="black" fillcolor="white" style="filled" URL="dir_916a21b5658e9f82b6c102083cf14ff4.html"];
+    dir_820a6a28f6e219c75b936bc224303214 [shape=box label="math" color="black" fillcolor="white" style="filled" URL="dir_820a6a28f6e219c75b936bc224303214.html"];
+    dir_06093271616e191aa55bc2141339fc71 [shape=box label="other" color="black" fillcolor="white" style="filled" URL="dir_06093271616e191aa55bc2141339fc71.html"];
+    dir_6637ddd0ea26a40807c0c429504c9179 [shape=box label="payload" color="black" fillcolor="white" style="filled" URL="dir_6637ddd0ea26a40807c0c429504c9179.html"];
+    dir_87a863faf9df6557f359263ca590bcc8 [shape=box label="search" color="black" fillcolor="white" style="filled" URL="dir_87a863faf9df6557f359263ca590bcc8.html"];
+    dir_8479ff0d216aa49630c993ec16584a50 [shape=box label="Tests" color="black" fillcolor="white" style="filled" URL="dir_8479ff0d216aa49630c993ec16584a50.html"];
+  }
+  }
+  dir_56d0f84b48b9db9f67b627c814b26b94->dir_6637ddd0ea26a40807c0c429504c9179 [headlabel="1", labeldistance=1.5 headhref="dir_000001_000008.html"];
+  dir_87a863faf9df6557f359263ca590bcc8->dir_a79966bf88cfe707aaa789b85a1f9fd7 [headlabel="1", labeldistance=1.5 headhref="dir_000004_000002.html"];
+  dir_a79966bf88cfe707aaa789b85a1f9fd7->dir_916a21b5658e9f82b6c102083cf14ff4 [headlabel="1", labeldistance=1.5 headhref="dir_000002_000005.html"];
+}
