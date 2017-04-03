@@ -1,6 +1,6 @@
 #!/bin/bash
 make
-mv main_exec ./Tests
+mv snowball ./Tests
 cp vict.cpp ./Tests
 cd ./Tests
 g++ -o vict vict.cpp

@@ -1,6 +1,6 @@
-#include "fmanip.h"
-namespace fmanip {
-  /**
+#include "encryption.h"
+namespace engine {
+ /**
    * This function allows the encryption and decryption of text.
    * @param  toEncrypt This is the text that is to be encrypted or decrypted
    * @param  key       Key used for XOR encryption
@@ -29,4 +29,5 @@ char getRandom() {
     }
     return c;
 }
-} //namespace fmanip
+
+} //namespace engine

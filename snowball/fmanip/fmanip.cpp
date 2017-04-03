@@ -29,9 +29,6 @@ std::string read(std::string source_file_name){
         //The above doesn't seem to be nessessary anymore...
         source_file.close();
     }
-    else {
-        std::cout << "Cannot open file for reading." << std::endl;
-    }
     return text;
 }
 
@@ -45,9 +42,6 @@ int write(std::string file_name, std::string text_to_write){
     file.open(file_name);
     if(file.is_open()) {
         file << text_to_write;
-    }
-    else {
-        std::cout << "Cannot write file.";
     }
     file.close();
     return 0;
