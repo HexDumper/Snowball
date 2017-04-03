@@ -12,4 +12,7 @@ Contains a Makefile for easy compilation.
 
 ### Other details
 
-Contains Bash files for easily opening the directory (Gedit must be installed), easily creating a "Test" directory and easily cleaning the "Test" directory.
+Contains Bash files for easily opening the directory (Gedit must be installed for this feature to function properly*), easily creating a "Test" directory and easily cleaning the "Test" directory.
+
+*If gedit opens a new window for every file in the script instead of a new tab, Gedit's source code 
+must be modified in order for this to be acheived, tutorials are available online.
