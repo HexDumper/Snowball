@@ -1,7 +1,7 @@
 #include "fmanip.h"
 /**
- * This namespace contains all "basic" functions for manipulating files:
-  * reading, writing and encryption
+ * @brief This namespace contains all "basic" functions for manipulating files:
+ * reading, writing and encryption
  */
 namespace fmanip
 {

@@ -23,8 +23,9 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">Snowball
-   &#160;<span id="projectnumber">1.0</span>
+   &#160;<span id="projectnumber">1.0.1</span>
    </div>
+   <div id="projectbrief">Self copying porgram</div>
   </td>
  </tr>
  </tbody>
@@ -86,71 +87,20 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="title">fmanip Namespace Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>This namespace contains all "basic" functions for manipulating files: reading, writing and encryption.  
+<a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a0b2be66ee15d11cf7c2223ca2748bc48"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacefmanip.html#a0b2be66ee15d11cf7c2223ca2748bc48">encrypt_Decrypt</a> (std::string toEncrypt, char key)</td></tr>
-<tr class="separator:a0b2be66ee15d11cf7c2223ca2748bc48"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac6ece97ebf07da66f8750fd836b29587"><td class="memItemLeft" align="right" valign="top">char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacefmanip.html#ac6ece97ebf07da66f8750fd836b29587">getRandom</a> ()</td></tr>
-<tr class="separator:ac6ece97ebf07da66f8750fd836b29587"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a66b745d158684878cd4c8bc815c74849"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacefmanip.html#a66b745d158684878cd4c8bc815c74849">read</a> (std::string source_file_name)</td></tr>
 <tr class="separator:a66b745d158684878cd4c8bc815c74849"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af5012379267d8164747803e2ecaa1205"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacefmanip.html#af5012379267d8164747803e2ecaa1205">write</a> (std::string file_name, std::string text_to_write)</td></tr>
 <tr class="separator:af5012379267d8164747803e2ecaa1205"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>This namespace contains all "basic" functions for manipulating files: reading, writing and encryption </p>
+<div class="textblock"><p>This namespace contains all "basic" functions for manipulating files: reading, writing and encryption. </p>
 </div><h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="a0b2be66ee15d11cf7c2223ca2748bc48"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::string fmanip::encrypt_Decrypt </td>
-          <td>(</td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>toEncrypt</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">char&#160;</td>
-          <td class="paramname"><em>key</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>This function allows the encryption and decryption of text. </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">toEncrypt</td><td>This is the text that is to be encrypted or decrypted </td></tr>
-    <tr><td class="paramname">key</td><td>Key used for XOR encryption </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Tthe encrypted or decrypted string </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="ac6ece97ebf07da66f8750fd836b29587"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">char fmanip::getRandom </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Allows the user to get a random character. </p><dl class="section return"><dt>Returns</dt><dd>A random character used as a key for encrypt_Decrypt </dd></dl>
-
-</div>
-</div>
 <a class="anchor" id="a66b745d158684878cd4c8bc815c74849"></a>
 <div class="memitem">
 <div class="memproto">
@@ -210,7 +160,7 @@ Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Mar 17 2017 23:13:04 for Snowball by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Apr 3 2017 21:04:06 for Snowball by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

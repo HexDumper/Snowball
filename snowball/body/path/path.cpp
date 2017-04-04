@@ -1,6 +1,7 @@
 #include "path.h"
 /**
- * This namespace contains functions that allow the user obtain paths, especially of executables.
+ * @brief This namespace contains functions that allow the user obtain paths, especially of
+ *  executables.
  */
 namespace path {
 /**

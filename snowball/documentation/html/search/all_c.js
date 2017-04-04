@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['vict_2ecpp',['vict.cpp',['../_tests_2vict_8cpp.html',1,'']]],
-  ['vict_2ecpp',['vict.cpp',['../vict_8cpp.html',1,'']]]
+  ['write',['write',['../namespacefmanip.html#af5012379267d8164747803e2ecaa1205',1,'fmanip']]]
 ];

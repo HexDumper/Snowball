@@ -1,0 +1,57 @@
+\hypertarget{namespaceengine}{\section{engine Namespace Reference}
+\label{namespaceengine}\index{engine@{engine}}
+}
+
+
+This namespace contains the components of Snowball's Polymorphic Engine.  
+
+
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+std\+::string \hyperlink{namespaceengine_a809f71235f1a2a58ea738d4276b795c9}{encrypt\+\_\+\+Decrypt} (std\+::string to\+Encrypt, char key)
+\begin{DoxyCompactList}\small\item\em This function allows the encryption and decryption of text. \end{DoxyCompactList}\item 
+char \hyperlink{namespaceengine_afdfa37a571a13db9a156c8a6813fa3e5}{get\+Random} ()
+\begin{DoxyCompactList}\small\item\em Allows the user to get a random character. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This namespace contains the components of Snowball's Polymorphic Engine. 
+
+\subsection{Function Documentation}
+\hypertarget{namespaceengine_a809f71235f1a2a58ea738d4276b795c9}{\index{engine@{engine}!encrypt\+\_\+\+Decrypt@{encrypt\+\_\+\+Decrypt}}
+\index{encrypt\+\_\+\+Decrypt@{encrypt\+\_\+\+Decrypt}!engine@{engine}}
+\subsubsection[{encrypt\+\_\+\+Decrypt}]{\setlength{\rightskip}{0pt plus 5cm}std\+::string engine\+::encrypt\+\_\+\+Decrypt (
+\begin{DoxyParamCaption}
+\item[{std\+::string}]{to\+Encrypt, }
+\item[{char}]{key}
+\end{DoxyParamCaption}
+)}}\label{namespaceengine_a809f71235f1a2a58ea738d4276b795c9}
+
+
+This function allows the encryption and decryption of text. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em to\+Encrypt} & This is the text that is to be encrypted or decrypted \\
+\hline
+{\em key} & Key used for X\+O\+R encryption \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Tthe encrypted or decrypted string 
+\end{DoxyReturn}
+\hypertarget{namespaceengine_afdfa37a571a13db9a156c8a6813fa3e5}{\index{engine@{engine}!get\+Random@{get\+Random}}
+\index{get\+Random@{get\+Random}!engine@{engine}}
+\subsubsection[{get\+Random}]{\setlength{\rightskip}{0pt plus 5cm}char engine\+::get\+Random (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{namespaceengine_afdfa37a571a13db9a156c8a6813fa3e5}
+
+
+Allows the user to get a random character. 
+
+\begin{DoxyReturn}{Returns}
+A random character used as a key for encrypt\+\_\+\+Decrypt 
+\end{DoxyReturn}

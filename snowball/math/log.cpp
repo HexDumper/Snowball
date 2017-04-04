@@ -1,6 +1,8 @@
 // function for logarithms
 #include"log.h"
-
+/**
+ * @brief This namespace contains mathematical functions that may be useful, they are added as needed.
+ */
 namespace math
 {
   /**

@@ -1,7 +1,10 @@
 #include "encryption.h"
+/**
+ * @brief This namespace contains the components of Snowball's Polymorphic Engine.
+ */
 namespace engine {
  /**
-   * This function allows the encryption and decryption of text.
+   * @brief This function allows the encryption and decryption of text.
    * @param  toEncrypt This is the text that is to be encrypted or decrypted
    * @param  key       Key used for XOR encryption
    * @return           Tthe encrypted or decrypted string
@@ -16,7 +19,7 @@ std::string encrypt_Decrypt(std::string toEncrypt, char key){
   return output;
 }
 /**
- * Allows the user to get a random character.
+ * @brief Allows the user to get a random character.
  * @return A random character used as a key for encrypt_Decrypt
  */
 char getRandom() {

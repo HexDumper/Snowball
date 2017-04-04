@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['search',['search',['../namespacesearch.html',1,'']]]
+  ['path',['path',['../namespacepath.html',1,'']]]
 ];

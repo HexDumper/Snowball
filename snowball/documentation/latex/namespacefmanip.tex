@@ -1,12 +1,13 @@
 \hypertarget{namespacefmanip}{\section{fmanip Namespace Reference}
 \label{namespacefmanip}\index{fmanip@{fmanip}}
 }
+
+
+This namespace contains all \char`\"{}basic\char`\"{} functions for manipulating files\+: reading, writing and encryption.  
+
+
 \subsection*{Functions}
 \begin{DoxyCompactItemize}
-\item 
-std\+::string \hyperlink{namespacefmanip_a0b2be66ee15d11cf7c2223ca2748bc48}{encrypt\+\_\+\+Decrypt} (std\+::string to\+Encrypt, char key)
-\item 
-char \hyperlink{namespacefmanip_ac6ece97ebf07da66f8750fd836b29587}{get\+Random} ()
 \item 
 std\+::string \hyperlink{namespacefmanip_a66b745d158684878cd4c8bc815c74849}{read} (std\+::string source\+\_\+file\+\_\+name)
 \item 
@@ -15,37 +16,9 @@ int \hyperlink{namespacefmanip_af5012379267d8164747803e2ecaa1205}{write} (std\+:
 
 
 \subsection{Detailed Description}
-This namespace contains all \char`\"{}basic\char`\"{} functions for manipulating files\+: reading, writing and encryption 
+This namespace contains all \char`\"{}basic\char`\"{} functions for manipulating files\+: reading, writing and encryption. 
 
 \subsection{Function Documentation}
-\hypertarget{namespacefmanip_a0b2be66ee15d11cf7c2223ca2748bc48}{\index{fmanip@{fmanip}!encrypt\+\_\+\+Decrypt@{encrypt\+\_\+\+Decrypt}}
-\index{encrypt\+\_\+\+Decrypt@{encrypt\+\_\+\+Decrypt}!fmanip@{fmanip}}
-\subsubsection[{encrypt\+\_\+\+Decrypt}]{\setlength{\rightskip}{0pt plus 5cm}std\+::string fmanip\+::encrypt\+\_\+\+Decrypt (
-\begin{DoxyParamCaption}
-\item[{std\+::string}]{to\+Encrypt, }
-\item[{char}]{key}
-\end{DoxyParamCaption}
-)}}\label{namespacefmanip_a0b2be66ee15d11cf7c2223ca2748bc48}
-This function allows the encryption and decryption of text. 
-\begin{DoxyParams}{Parameters}
-{\em to\+Encrypt} & This is the text that is to be encrypted or decrypted \\
-\hline
-{\em key} & Key used for X\+O\+R encryption \\
-\hline
-\end{DoxyParams}
-\begin{DoxyReturn}{Returns}
-Tthe encrypted or decrypted string 
-\end{DoxyReturn}
-\hypertarget{namespacefmanip_ac6ece97ebf07da66f8750fd836b29587}{\index{fmanip@{fmanip}!get\+Random@{get\+Random}}
-\index{get\+Random@{get\+Random}!fmanip@{fmanip}}
-\subsubsection[{get\+Random}]{\setlength{\rightskip}{0pt plus 5cm}char fmanip\+::get\+Random (
-\begin{DoxyParamCaption}
-{}
-\end{DoxyParamCaption}
-)}}\label{namespacefmanip_ac6ece97ebf07da66f8750fd836b29587}
-Allows the user to get a random character. \begin{DoxyReturn}{Returns}
-A random character used as a key for encrypt\+\_\+\+Decrypt 
-\end{DoxyReturn}
 \hypertarget{namespacefmanip_a66b745d158684878cd4c8bc815c74849}{\index{fmanip@{fmanip}!read@{read}}
 \index{read@{read}!fmanip@{fmanip}}
 \subsubsection[{read}]{\setlength{\rightskip}{0pt plus 5cm}std\+::string fmanip\+::read (

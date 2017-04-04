@@ -3,7 +3,7 @@
 using namespace std;
 
 /**
- * This namespace contains functions that allow the user to search directories.
+ * @brief This namespace contains functions that allow the user to search directories.
  */
 namespace search {
   /**

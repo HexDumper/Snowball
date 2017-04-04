@@ -10,9 +10,10 @@
    * encryption/decryption, and many more. This project contains a MakeFile for
    * easy compilation, and many other scripts for easy testing, cleaning, etc.
    * \note Version History and Notes
-	 * 
-	 * Version 1.0 :
-	 * Does not contain an active payload.
+	 * Version 1.0.1 : \n
+	 * Set directory and some files for containing projected Polymorphic Enigine. \n
+	 * Version 1.0 : \n
+	 * Does not contain an active payload. \n
    */
 int main() {
   std::string t;

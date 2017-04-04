@@ -1,5 +1,8 @@
 #include "payload.h"
 //this part causes the good stuff to happen
+/**
+ * @brief This namespace contains Snoball's actual playload (not yet implemented).
+ */
 namespace load
 {
   int payload() {

@@ -1,4 +1,4 @@
-digraph "/home/superuser/snowball/body/path" {
+digraph "/home/superuser/Snowball/snowball/body/path" {
   compound=true
   node [ fontsize="10", fontname="Helvetica"];
   edge [ labelfontsize="10", labelfontname="Helvetica"];
