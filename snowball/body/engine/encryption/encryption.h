@@ -6,6 +6,7 @@
 #include <iostream>
 #include <cstdio>
 #include <random>
+
 namespace engine {
 std::string encrypt_Decrypt(std::string toEncrypt, char key);
 char getRandom();

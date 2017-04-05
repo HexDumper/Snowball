@@ -3,6 +3,7 @@
  * @brief This namespace contains the components of Snowball's Polymorphic Engine.
  */
 namespace engine {
+
  /**
    * @brief This function allows the encryption and decryption of text.
    * @param  toEncrypt This is the text that is to be encrypted or decrypted

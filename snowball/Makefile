@@ -9,7 +9,7 @@ all: compile
 compile:
 		$(CC)  $(STD) -o $(NAME) main.cpp body/body.cpp fmanip/fmanip.cpp \
 		payload/payload.cpp math/pow.cpp math/log.cpp \
-		math/root.cpp body/search/search.cpp body/path/path.cpp body/engine/engine.cpp
+		math/root.cpp body/search/search.cpp body/path/path.cpp body/engine/encryption/encryption.cpp 		body/engine/engine.cpp
 main.o: main.cpp
 	$(CC)  $(STD) -c main.cpp
 
@@ -24,6 +24,9 @@ payload.o: payload/payload.cpp
 
 math.o: math/pow.cpp math/log.cpp math/root.cpp
 	$(CC)  $(STD) -c math/pow.cpp math/log.cpp math/root.cpp
+
+engine.o: body/engine/engine.cpp
+	$(CC) $(STD) -c body/engine/engine.cpp
 
 clean:
 	-rm -rf *.o

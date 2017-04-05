@@ -5,7 +5,7 @@
  */
 namespace path {
 /**
-   * get_selfpath() gets the path of the executed executable.
+   * @return A string, the path of the executed executable.
    */
 std::string get_selfpath() {
     char buff[PATH_MAX];
