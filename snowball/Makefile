@@ -1,3 +1,4 @@
+#NOTE::Each source file must be independently compiled within 'compile:'
 #declare variables
 CC = g++
 STD = -std=c++11

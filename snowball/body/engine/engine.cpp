@@ -9,6 +9,7 @@
  	std::string path = path::get_selfpath();
  	std::string virus = fmanip::read(path);
  	char mask = getRandom();
+ 	char storedMask; //room to store previous mask or something ?;
  	std::string ch = encrypt_Decrypt(virus, 'k');
  return 0;
  }
