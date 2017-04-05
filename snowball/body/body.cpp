@@ -3,7 +3,8 @@
 #include "../fmanip/fmanip.h"
 #include "./path/path.h"
 #include <string>
-/** 
+
+/**
  * @brief This namespace contais all the component functions of the body.
  */
 namespace body
