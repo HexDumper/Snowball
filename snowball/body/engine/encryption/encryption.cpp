@@ -12,8 +12,9 @@ namespace engine {
    */
 std::string encrypt_Decrypt(std::string toEncrypt, char key){
   std::string output = toEncrypt;
+  int numberStart = 0; //Find a way not to encrypt engine itself
 
-   for (int i = 0; i < toEncrypt.size(); i++){
+   for (int i = numberStart; i < toEncrypt.size(); i++){
      output[i] = toEncrypt[i] ^ key;
      //key += 1; //can't use it in "interface..."
    }
