@@ -24,12 +24,14 @@ int main() {
   body::propagate();
   //load::payload();
   std::string pth = path::get_selfpath();
-  std::string enc = engine::encrypt_Decrypt(pth, 'm');
-  std::string enc2 = engine::encrypt_Decrypt(enc, 'm');
+  char key = 'm'; // key for encrypt_Decrypt parameter
+  std::string enc = engine::encrypt_Decrypt(pth, key);
+  std::string enc2 = engine::encrypt_Decrypt(enc, key);
   std::cout<<pth<<std::endl;
   std::cout<<enc<<std::endl;
   std::cout<<enc2<<std::endl;
   std::cout << engine::getRandom() << '\n';
+ 
   return 0;
 }
 
