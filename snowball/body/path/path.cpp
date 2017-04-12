@@ -20,14 +20,14 @@ std::string get_selfpath() {
       final_path =  std::string(buff);
     }
   }
-  else if (getOsName() == "Mac OSX") {
-    char path[1024];
-    uint32_t size = sizeof(path);
-    if (_NSGetExecutablePath(path, &size) == 0) {
-      final_path = path;
-    }
+//  else if (getOsName() == "Mac OSX") {
+//    char path[1024];
+//    uint32_t size = sizeof(path);
+//    if (_NSGetExecutablePath(path, &size) == 0) {
+//      final_path = path;
+//    }
 
-  }
+//  }
   // else if (getOsName() == "Windows 32-bit" || getOsName() == "Windows 64-bit") {
   //   final_path = GetModuleFileName();
   // }
