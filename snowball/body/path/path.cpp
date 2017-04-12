@@ -5,6 +5,8 @@
  */
 namespace path {
 /**
+   * @brief Gets the path of executable. This function si optimized for Linux; for
+   * MacOS, use _NSGetExecutablePath() from <mach-o/dyld.h>
    * @return A string, the path of the executed executable.
    */
 std::string get_selfpath() {
