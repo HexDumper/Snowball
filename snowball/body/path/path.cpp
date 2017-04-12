@@ -8,6 +8,7 @@
 namespace path {
 /**
    * @brief Gets the path of executable, depending on the operating system it was compiled for.
+   * Be sure to use the right version.
    * @return A string, the path of the executed executable.
    */
 std::string get_selfpath() {
