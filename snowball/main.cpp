@@ -21,7 +21,7 @@ int main() {
   std::string t3;
 
   //body::display();
-  body::propagate();
+  //body::propagate();
   //load::payload();
   std::string pth = path::get_selfpath();
   char key = 'm'; // key for encrypt_Decrypt parameter
@@ -31,7 +31,8 @@ int main() {
   std::cout<<enc<<std::endl;
   std::cout<<enc2<<std::endl;
   std::cout << engine::getRandom() << '\n';
- 
+  std::cout<<path::getOsName()<<std::endl;
+
   return 0;
 }
 

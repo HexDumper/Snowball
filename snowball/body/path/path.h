@@ -8,6 +8,7 @@
 namespace path {
 
 std::string get_selfpath();
+std::string getOsName();
 } //namespace path
 
 #endif

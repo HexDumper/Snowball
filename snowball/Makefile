@@ -12,6 +12,7 @@ compile:
 		$(CC)  $(STD) -o $(NAME) main.cpp body/body.cpp fmanip/fmanip.cpp \
 		payload/payload.cpp body/search/search.cpp body/path/path.cpp \
 		body/engine/encryption/encryption.cpp body/engine/engine.cpp
+
 main.o: main.cpp
 	$(CC)  $(STD) -c main.cpp
 
