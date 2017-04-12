@@ -1,5 +1,5 @@
 #include "path.h"
-
+#include <mach-o/dyld.h>
 
 /**
  * @brief This namespace contains functions that allow the user obtain paths, especially of
@@ -52,7 +52,6 @@ std::string getOsName() {
     return "Unix";
     #elif __APPLE__ || __MACH__
     return "Mac OSX";
-    #include <mach-o/dyld.h>
     #elif __linux__
     return "Linux";
     #elif __FreeBSD__
