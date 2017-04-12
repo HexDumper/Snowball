@@ -1,0 +1,21 @@
+\hypertarget{body_8cpp}{}\section{/\+Users/\+Nicolas/project/\+Snowball/snowball/body/body.cpp File Reference}
+\label{body_8cpp}\index{/\+Users/\+Nicolas/project/\+Snowball/snowball/body/body.\+cpp@{/\+Users/\+Nicolas/project/\+Snowball/snowball/body/body.\+cpp}}
+{\ttfamily \#include \char`\"{}body.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}./search/search.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}../fmanip/fmanip.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}./path/path.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$string$>$}\newline
+Include dependency graph for body.\+cpp\+:
+% FIG 0
+\subsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+ \hyperlink{namespacebody}{body}
+\begin{DoxyCompactList}\small\item\em This namespace contais all the component functions of the body. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{namespacebody_ad013160e03ba5882f2bc9d36acf6afe2}{body\+::display} ()
+\item 
+int \hyperlink{namespacebody_a08ea861557fb3d60985662c169ffd720}{body\+::propagate} ()
+\end{DoxyCompactItemize}

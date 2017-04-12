@@ -1,12 +1,13 @@
-\hypertarget{path_8h}{\section{/home/superuser/\+Snowball/snowball/body/path/path.h File Reference}
-\label{path_8h}\index{/home/superuser/\+Snowball/snowball/body/path/path.\+h@{/home/superuser/\+Snowball/snowball/body/path/path.\+h}}
-}
-{\ttfamily \#include $<$unistd.\+h$>$}\\*
-{\ttfamily \#include $<$limits.\+h$>$}\\*
-{\ttfamily \#include $<$string$>$}\\*
-{\ttfamily \#include $<$iostream$>$}\\*
+\hypertarget{path_8h}{}\section{/\+Users/\+Nicolas/project/\+Snowball/snowball/body/path/path.h File Reference}
+\label{path_8h}\index{/\+Users/\+Nicolas/project/\+Snowball/snowball/body/path/path.\+h@{/\+Users/\+Nicolas/project/\+Snowball/snowball/body/path/path.\+h}}
+{\ttfamily \#include $<$unistd.\+h$>$}\newline
+{\ttfamily \#include $<$limits.\+h$>$}\newline
+{\ttfamily \#include $<$string$>$}\newline
+{\ttfamily \#include $<$iostream$>$}\newline
 Include dependency graph for path.\+h\+:
+% FIG 0
 This graph shows which files directly or indirectly include this file\+:
+% FIG 1
 \subsection*{Namespaces}
 \begin{DoxyCompactItemize}
 \item 
@@ -16,4 +17,6 @@ This graph shows which files directly or indirectly include this file\+:
 \begin{DoxyCompactItemize}
 \item 
 std\+::string \hyperlink{namespacepath_a85795d606938290fd2f88b8fb2274b7d}{path\+::get\+\_\+selfpath} ()
-\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Gets the path of executable, depending on the operating system it was compiled for. \end{DoxyCompactList}\item 
+std\+::string \hyperlink{namespacepath_a14ce44304deb85153eb99ce47dec74f5}{path\+::get\+Os\+Name} ()
+\begin{DoxyCompactList}\small\item\em Gets the path Name of the operating system. Also includes \char`\"{}\+Whindows.\+h\char`\"{}, if needed. Is available in all versions, use if needed. \end{DoxyCompactList}\end{DoxyCompactItemize}

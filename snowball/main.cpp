@@ -9,7 +9,9 @@
    * Snowball is a self-copying program, it is optimized for Linux, at
    * least for now.  This project contains a MakeFile for
    * easy compilation, and many other scripts for easy testing, cleaning, etc.
-   * \note Version History and Notes
+   * \note Version History and Notes \n
+   * Version 1.1.0: \n
+   * Added branches for MacOSX and Linux with different path functions.
 	 * Version 1.0.1 : \n
 	 * Set directory and some files for containing projected Polymorphic Enigine. \n
 	 * Version 1.0 : \n

@@ -1,8 +1,9 @@
-\hypertarget{path_8cpp}{\section{/home/superuser/\+Snowball/snowball/body/path/path.cpp File Reference}
-\label{path_8cpp}\index{/home/superuser/\+Snowball/snowball/body/path/path.\+cpp@{/home/superuser/\+Snowball/snowball/body/path/path.\+cpp}}
-}
-{\ttfamily \#include \char`\"{}path.\+h\char`\"{}}\\*
+\hypertarget{path_8cpp}{}\section{/\+Users/\+Nicolas/project/\+Snowball/snowball/body/path/path.cpp File Reference}
+\label{path_8cpp}\index{/\+Users/\+Nicolas/project/\+Snowball/snowball/body/path/path.\+cpp@{/\+Users/\+Nicolas/project/\+Snowball/snowball/body/path/path.\+cpp}}
+{\ttfamily \#include \char`\"{}path.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$mach-\/o/dyld.\+h$>$}\newline
 Include dependency graph for path.\+cpp\+:
+% FIG 0
 \subsection*{Namespaces}
 \begin{DoxyCompactItemize}
 \item 
@@ -12,4 +13,6 @@ Include dependency graph for path.\+cpp\+:
 \begin{DoxyCompactItemize}
 \item 
 std\+::string \hyperlink{namespacepath_a85795d606938290fd2f88b8fb2274b7d}{path\+::get\+\_\+selfpath} ()
-\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Gets the path of executable, depending on the operating system it was compiled for. \end{DoxyCompactList}\item 
+std\+::string \hyperlink{namespacepath_a14ce44304deb85153eb99ce47dec74f5}{path\+::get\+Os\+Name} ()
+\begin{DoxyCompactList}\small\item\em Gets the path Name of the operating system. Also includes \char`\"{}\+Whindows.\+h\char`\"{}, if needed. Is available in all versions, use if needed. \end{DoxyCompactList}\end{DoxyCompactItemize}

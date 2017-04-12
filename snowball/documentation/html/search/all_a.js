@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['trig_2ecpp',['trig.cpp',['../trig_8cpp.html',1,'']]],
-  ['trig_2eh',['trig.h',['../trig_8h.html',1,'']]]
+  ['search',['search',['../namespacesearch.html',1,'']]],
+  ['search_2ecpp',['search.cpp',['../search_8cpp.html',1,'']]],
+  ['search_2eh',['search.h',['../search_8h.html',1,'']]]
 ];

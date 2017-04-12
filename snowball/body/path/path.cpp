@@ -38,7 +38,7 @@ std::string get_selfpath() {
 
 /**
    * @brief Gets the path Name of the operating system. Also includes
-   * "Whindows.h" if needed.
+   * "Whindows.h", if needed. Is available in all versions, use if needed.
    * @return A string, the name of OS.
    */
 std::string getOsName() {

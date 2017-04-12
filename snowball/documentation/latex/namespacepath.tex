@@ -1,6 +1,5 @@
-\hypertarget{namespacepath}{\section{path Namespace Reference}
+\hypertarget{namespacepath}{}\section{path Namespace Reference}
 \label{namespacepath}\index{path@{path}}
-}
 
 
 This namespace contains functions that allow the user obtain paths, especially of executables.  
@@ -10,18 +9,38 @@ This namespace contains functions that allow the user obtain paths, especially o
 \begin{DoxyCompactItemize}
 \item 
 std\+::string \hyperlink{namespacepath_a85795d606938290fd2f88b8fb2274b7d}{get\+\_\+selfpath} ()
-\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Gets the path of executable, depending on the operating system it was compiled for. \end{DoxyCompactList}\item 
+std\+::string \hyperlink{namespacepath_a14ce44304deb85153eb99ce47dec74f5}{get\+Os\+Name} ()
+\begin{DoxyCompactList}\small\item\em Gets the path Name of the operating system. Also includes \char`\"{}\+Whindows.\+h\char`\"{}, if needed. Is available in all versions, use if needed. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
 \subsection{Detailed Description}
 This namespace contains functions that allow the user obtain paths, especially of executables. 
 
 \subsection{Function Documentation}
-\hypertarget{namespacepath_a85795d606938290fd2f88b8fb2274b7d}{\index{path@{path}!get\+\_\+selfpath@{get\+\_\+selfpath}}
+\mbox{\Hypertarget{namespacepath_a85795d606938290fd2f88b8fb2274b7d}\label{namespacepath_a85795d606938290fd2f88b8fb2274b7d}} 
+\index{path@{path}!get\+\_\+selfpath@{get\+\_\+selfpath}}
 \index{get\+\_\+selfpath@{get\+\_\+selfpath}!path@{path}}
-\subsubsection[{get\+\_\+selfpath}]{\setlength{\rightskip}{0pt plus 5cm}std\+::string path\+::get\+\_\+selfpath (
-\begin{DoxyParamCaption}
-{}
-\end{DoxyParamCaption}
-)}}\label{namespacepath_a85795d606938290fd2f88b8fb2274b7d}
-\hyperlink{namespacepath_a85795d606938290fd2f88b8fb2274b7d}{get\+\_\+selfpath()} gets the path of the executed executable. 
+\subsubsection{\texorpdfstring{get\+\_\+selfpath()}{get\_selfpath()}}
+{\footnotesize\ttfamily std\+::string path\+::get\+\_\+selfpath (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Gets the path of executable, depending on the operating system it was compiled for. 
+
+\begin{DoxyReturn}{Returns}
+A string, the path of the executed executable. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{namespacepath_a14ce44304deb85153eb99ce47dec74f5}\label{namespacepath_a14ce44304deb85153eb99ce47dec74f5}} 
+\index{path@{path}!get\+Os\+Name@{get\+Os\+Name}}
+\index{get\+Os\+Name@{get\+Os\+Name}!path@{path}}
+\subsubsection{\texorpdfstring{get\+Os\+Name()}{getOsName()}}
+{\footnotesize\ttfamily std\+::string path\+::get\+Os\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Gets the path Name of the operating system. Also includes \char`\"{}\+Whindows.\+h\char`\"{}, if needed. Is available in all versions, use if needed. 
+
+\begin{DoxyReturn}{Returns}
+A string, the name of OS. 
+\end{DoxyReturn}
