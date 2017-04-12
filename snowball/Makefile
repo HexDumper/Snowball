@@ -1,4 +1,4 @@
-#NOTE:: Each source file must be independently compiled within 'compile:' and/or 
+#NOTE:: Each source file must be independently compiled within 'compile:' and/or
 #       independantly as "*.o", optionally.
 #declare variables
 CC = g++
@@ -12,11 +12,11 @@ compile:
 		$(CC)  $(STD) -o $(NAME) main.cpp body/body.cpp fmanip/fmanip.cpp \
 		payload/payload.cpp math/pow.cpp math/log.cpp \
 		math/root.cpp body/search/search.cpp body/path/path.cpp \
-		body/engine/encryption/encryption.cpp body/engine/engine.cpp 
+		body/engine/encryption/encryption.cpp body/engine/engine.cpp
 main.o: main.cpp
 	$(CC)  $(STD) -c main.cpp
 
-fmanip.o: fmanip/fmanip.cpp fmanip/encryption.cpp
+fmanip.o: fmanip/fmanip.cpp
 	$(CC)  $(STD) -c fmanip/fmanip.cpp fmanip/encryption.cpp
 
 body.o: body/body.cpp
