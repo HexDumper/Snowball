@@ -12,7 +12,7 @@ namespace path {
    */
 std::string get_selfpath() {
   std::string final_path;
-  if (getOsName() == "Linux") {
+  if (getOsName() == "Linux" || getOsName() == "Unix") {
     char buff[PATH_MAX];
     ssize_t len = ::readlink("/proc/self/exe", buff, sizeof(buff)-1);
     if (len != -1) {
@@ -28,10 +28,10 @@ std::string get_selfpath() {
     }
 
   }
+  // else if (getOsName() == "Windows 32-bit" || getOsName() == "Windows 64-bit") {
+  //   final_path = GetModuleFileName();
+  // }
 
-  else if (getOsName() == "Unix") {
-
-  }
   return  final_path;
 
 }
