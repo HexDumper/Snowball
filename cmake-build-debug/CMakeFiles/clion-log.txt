@@ -1,0 +1,2 @@
+CMakeLists.txt not found in C:\Users\Nicolas\CLionProjects\Snowball
+Environment (MinGW/Cygwin) is not selected
