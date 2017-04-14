@@ -29,9 +29,9 @@ std::string get_selfpath() {
     }
 
   }
-  // else if (getOsName() == "Windows 32-bit" || getOsName() == "Windows 64-bit") {
-  //   final_path = GetModuleFileName();
-  // }
+   else if (getOsName() == "Windows 32-bit" || getOsName() == "Windows 64-bit") {
+     final_path = GetModuleFileName();
+   }
 
   return  final_path;
 
