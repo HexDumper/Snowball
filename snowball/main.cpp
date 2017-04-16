@@ -34,6 +34,7 @@ int main() {
   std::cout<<enc2<<std::endl;
   std::cout << engine::getRandom() << '\n';
   std::cout<<path::getOsName()<<std::endl;
+  fmanip::write("test.txt", "Hello");
 
   return 0;
 }

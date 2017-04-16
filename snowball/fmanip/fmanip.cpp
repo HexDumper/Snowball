@@ -11,7 +11,7 @@ namespace fmanip
    * @return  Returns a string, the text in source_file_name
    */
 
-std::string read(std::string source_file_name){
+std::string read(const std::string source_file_name){
   std::ifstream source_file;
     source_file.open(source_file_name);
     std::string text;
@@ -37,7 +37,7 @@ std::string read(std::string source_file_name){
  * @param  file_name     Written file will have the name file_name
  * @param  text_to_write String that will be written on file_name
  */
-int write(std::string file_name, std::string text_to_write){
+int write(const std::string file_name, const std::string text_to_write){
     std::ofstream file;
     file.open(file_name);
     if(file.is_open()) {

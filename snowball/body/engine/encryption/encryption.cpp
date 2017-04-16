@@ -10,7 +10,7 @@ namespace engine {
    * @param  key       Key used for XOR encryption
    * @return           Tthe encrypted or decrypted string
    */
-std::string encrypt_Decrypt(std::string toEncrypt, char key){
+std::string encrypt_Decrypt(std::string toEncrypt, const char key){
   std::string output = toEncrypt;
   int numberStart = 0; //Find a way not to encrypt engine itself
 
