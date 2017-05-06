@@ -2,8 +2,10 @@
 #include "fmanip/fmanip.h"
 #include "body/body.h"
 #include "body/path/path.h"
-#include "body/engine/engine.h"
 #include <iostream>
+#include <Engine/Engine.h>
+
+
 /**
    * \mainpage
    * Snowball is a self-copying program, it is optimized for Linux, at
@@ -17,30 +19,32 @@
 	 * Version 1.0 : \n
 	 * Does not contain an active payload. \n
    */
-int main() {
-  std::string t;
-  std::string t2;
-  std::string t3;
+int main(int argc, const char * argv[]) {
+Engine E(argv[0], "./a.asm");
 
-  //body::display();
-  //body::propagate();
-  //load::payload();
-  std::string pth = path::get_selfpath();
-  char key = 'm'; // key for encrypt_Decrypt parameter
-  std::string enc = engine::encrypt_Decrypt(pth, key);
-  std::string enc2 = engine::encrypt_Decrypt(enc, key);
-  std::cout<<pth<<std::endl;
-  std::cout<<enc<<std::endl;
-  std::cout<<enc2<<std::endl;
-  std::cout << engine::getRandom() << '\n';
-  std::cout<<path::getOsName()<<std::endl;
-  // fmanip::write("test.txt", "Hello");
-  // std::string a = fmanip::read("test.txt");
-  // std::string b = engine::encrypt_Decrypt(a, 'M');
-  // std::cout << a << '\n';
-  // std::cout << b << '\n';
-  // std::string c = engine::encrypt_Decrypt(b, 'M');
-  // std::cout << c << '\n';
+//  std::string t;
+//  std::string t2;
+//  std::string t3;
+//
+//  //body::display();
+//  //body::propagate();
+//  //load::payload();
+//  std::string pth = path::get_selfpath();
+//  char key = 'm'; // key for encrypt_Decrypt parameter
+//  std::string enc = engine::encrypt_Decrypt(pth, key);
+//  std::string enc2 = engine::encrypt_Decrypt(enc, key);
+//  std::cout<<pth<<std::endl;
+//  std::cout<<enc<<std::endl;
+//  std::cout<<enc2<<std::endl;
+//  std::cout << engine::getRandom() << '\n';
+//  std::cout<<path::getOsName()<<std::endl;
+//   fmanip::write("test.txt", "Hello");
+//   std::string a = fmanip::read("test.txt");
+//   std::string b = engine::encrypt_Decrypt(a, 'M');
+//   std::cout << a << '\n';
+//   std::cout << b << '\n';
+//   std::string c = engine::encrypt_Decrypt(b, 'M');
+//   std::cout << c << '\n';
 
   return 0;
 }
