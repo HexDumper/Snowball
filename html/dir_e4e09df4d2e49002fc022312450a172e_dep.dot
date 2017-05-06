@@ -1,0 +1,6 @@
+digraph "/home/superuser/Snowball/snowball/fmanip" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  dir_e4e09df4d2e49002fc022312450a172e [shape=box, label="fmanip", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_e4e09df4d2e49002fc022312450a172e.html"];
+}

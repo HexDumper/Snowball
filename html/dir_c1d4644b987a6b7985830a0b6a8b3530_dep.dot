@@ -1,0 +1,6 @@
+digraph "/home/superuser/Snowball/snowball/other" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  dir_c1d4644b987a6b7985830a0b6a8b3530 [shape=box, label="other", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_c1d4644b987a6b7985830a0b6a8b3530.html"];
+}

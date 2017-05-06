@@ -1,0 +1,6 @@
+digraph "/home/superuser/Snowball/snowball/math" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  dir_296d53ceaeaa7e099814a6def439fe8a [shape=box, label="math", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_296d53ceaeaa7e099814a6def439fe8a.html"];
+}

@@ -1,0 +1,6 @@
+digraph "/home/superuser/Snowball/snowball/payload" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  dir_0aebb49b5e4124197cad89239267c3da [shape=box, label="payload", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_0aebb49b5e4124197cad89239267c3da.html"];
+}
