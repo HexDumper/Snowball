@@ -1,0 +1,18 @@
+digraph "/Users/Nicolas/project/Snowball/snowball/body/engine" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_33a3286485c637ec477613e1f9c16c9a {
+    graph [ bgcolor="#ddddee", pencolor="black", label="body" fontname="Helvetica", fontsize="10", URL="dir_33a3286485c637ec477613e1f9c16c9a.html"]
+  subgraph clusterdir_0d8b3191896f458d8eea35556998be03 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_0d8b3191896f458d8eea35556998be03.html"];
+    dir_0d8b3191896f458d8eea35556998be03 [shape=plaintext label="engine"];
+    dir_d3f5c10344be70b8690e0cd314048962 [shape=box label="encryption" color="black" fillcolor="white" style="filled" URL="dir_d3f5c10344be70b8690e0cd314048962.html"];
+  }
+  }
+  dir_e4e09df4d2e49002fc022312450a172e [shape=box label="fmanip" URL="dir_e4e09df4d2e49002fc022312450a172e.html"];
+  dir_b8b5efb24f0479c770f0ac9b9d268832 [shape=box label="path" URL="dir_b8b5efb24f0479c770f0ac9b9d268832.html"];
+  dir_0d8b3191896f458d8eea35556998be03->dir_e4e09df4d2e49002fc022312450a172e [headlabel="1", labeldistance=1.5 headhref="dir_000001_000005.html"];
+  dir_0d8b3191896f458d8eea35556998be03->dir_d3f5c10344be70b8690e0cd314048962 [headlabel="1", labeldistance=1.5 headhref="dir_000001_000002.html"];
+  dir_0d8b3191896f458d8eea35556998be03->dir_b8b5efb24f0479c770f0ac9b9d268832 [headlabel="1", labeldistance=1.5 headhref="dir_000001_000003.html"];
+}

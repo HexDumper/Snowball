@@ -34,7 +34,13 @@ int main() {
   std::cout<<enc2<<std::endl;
   std::cout << engine::getRandom() << '\n';
   std::cout<<path::getOsName()<<std::endl;
-  fmanip::write("test.txt", "Hello");
+  // fmanip::write("test.txt", "Hello");
+  // std::string a = fmanip::read("test.txt");
+  // std::string b = engine::encrypt_Decrypt(a, 'M');
+  // std::cout << a << '\n';
+  // std::cout << b << '\n';
+  // std::string c = engine::encrypt_Decrypt(b, 'M');
+  // std::cout << c << '\n';
 
   return 0;
 }
